@@ -1,0 +1,71 @@
+body{
+    background-color: white;
+    color: black;
+}
+NAV, header, .contenedor, footer{
+   max-width: 92%;
+    max-width: 90%;
+    margin: auto;
+    border-radius: 0.4em;
+}
+nav{
+    background-color: rgb(0, 88, 131);
+    text-align : center;
+}
+header{
+    background-color: white ;
+    justify-content: center ;
+    text-align : left;
+}
+.contenedor{
+    background-color: white;    
+}
+.central{
+    background-color:white;
+    display: inline-block;
+    max-width: 70%;
+    text-align : center;
+    justify-content: center ;
+    vertical-align: top;
+    width: 70%;
+}
+footer{
+    background-color: rgb(0, 88, 131);
+    color: white;
+    text-align : center;
+}
+aside{
+    background-color:rgb(240, 180, 41);
+    color: blue;
+    display: inline-block;
+    max-width: 30%;
+    width: 28%;
+    vertical-align: top;
+}
+/* Menú */
+.menu li{
+    display: inline-block;
+}
+li a, boton{
+    display: inline-block;
+    color :white;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.9em 1em   
+}
+.listaDesplegable{
+    display : none;
+    background-color: rgb(240, 180, 41);
+    position : absolute;
+}
+.listaDesplegable a{
+    color : white;
+    display : block;
+    text-align : left;
+}
+.boton:hover .listaDesplegable{
+    display : block;
+}
+li a:hover{
+    background-color :rgb(0, 88, 131);
+}
